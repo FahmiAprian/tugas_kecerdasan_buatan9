@@ -1,0 +1,282 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  min-height: 50vh;
+  background: url(images/main.jpg);
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.main .content {
+  width: 100%;
+}
+
+.main .content h3 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px white;
+}
+
+header {
+  z-index: 999;
+  position: fixed;
+  background: rgba(255, 249, 249, 0.479);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease;
+}
+
+header.sticky {
+  background: rgba(94, 194, 201, 0.692);
+  padding: 15px 20px;
+}
+
+header .brand {
+  color: rgb(255, 0, 0);
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+}
+
+header .navigation a {
+  color: rgb(0, 0, 0);
+  font-size: 1.3em;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+header .navigation a:hover {
+  color: #000000;
+}
+
+body {
+  width: 100%;
+  background: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 70px;
+  background: #97f2f8;
+}
+
+.judul {
+  text-align: center;
+}
+
+body .no1 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+body .no1 p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+body .no1 dd {
+  font-size: 1.1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+body .no1 ul {
+  align-items: center;
+}
+
+body .no3 ol {
+  align-items: center;
+}
+
+.no3 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+#judul3 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.no3 span {
+  position: relative;
+  color: #000000;
+  font-size: 1.1em;
+  font-weight: 800;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.no3 span:before {
+  content: '';
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: #ffffff;
+  transform: translateX(-50%);
+}
+
+.no3 span:after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ebdb07;
+  transform: translateX(-50%);
+}
+
+.no3 dd {
+  padding: 10px 0;
+  font-size: 1.1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+body .no4 p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+body .no5 p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+body .no6 p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.nlp {
+  width: 30%;
+  padding-bottom: 35px;
+}
+
+.cv {
+  width: 50%;
+}
+
+.sp {
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+#gp {
+  width: 45%;
+}
+
+.scrollToTop-btn {
+  z-index: 999;
+  position: fixed;
+  background: #3a6cf4;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  right: 0;
+  bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 3px;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.judul1 {
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 2.2em;
+}
+
+.menu1 {
+  text-decoration: none;
+}
+
+.materi1 {
+  width: 50%;
+}
+
+.benar {
+  color: rgb(0, 0, 255);
+}
+
+.salah {
+  color: rgb(255, 0, 0);
+}
+
+.hak {
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.hak a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  background-color: #0de4f3;
+}
+
+.hak p {
+  color: #0de4f3;
+}
